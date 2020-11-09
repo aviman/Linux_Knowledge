@@ -1,0 +1,2 @@
+1. List only subdirectories of the current directory
+>ls -d */
