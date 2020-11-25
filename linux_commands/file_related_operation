@@ -1,0 +1,10 @@
+1. Read file contents into a variable:
+
+--set /p variable_name=<path_file_name
+Ex:
+--set /p latest_date=<C:\ELK\.logstash_jdbc_last_run
+
+set /p will use the first
+
+--for /f "delims=" %%x in (version.txt) do set Build=%%x
+for more lines the for variant will put the last line into the variable
